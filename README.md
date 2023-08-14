@@ -9,7 +9,7 @@
 
 3. "내 차 만들기" 탭으로 진입하면 URL이 다음과 같은 형식으로 표시된다
 
-https://www.hyundai.com/kr/ko/e/vehicles/estimation/model/making?model=**NX05**&modelCode=**NXJJ5TPD2**
+https://<hi>www.hyundai.com/kr/ko/e/vehicles/estimation/model/making?model=**NX05**&modelCode=**NXJJ5TPD2**
 
 ![내 차 만들기](./images/car_data.PNG)
 
