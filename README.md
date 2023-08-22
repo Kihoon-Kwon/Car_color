@@ -13,12 +13,15 @@ https://<hi>www.hyundai.com/kr/ko/e/vehicles/estimation/model/making?model=**NX0
 
 ![내 차 만들기](./images/car_data.PNG)
 
-4. 이 예시의 경우에는 model 옆 4자리 코드는 **투싼**이라는 모델을 의미하고, modelCode 옆 9자리 코드는 **투싼 1.6 가솔린 터보 Inspiration 2WD DCT**라는 사양명을 의미한다.
+4. 이 예시의 URL을 살펴보면, model 옆 4자리 코드는 **투싼**이라는 모델을 의미하고, modelCode 옆 9자리 코드는 **투싼 1.6 가솔린 터보 Inspiration 2WD DCT**라는 사양명을 의미한다.
 
 5. 이렇게 모델명과 사양명 정보를 우선적으로 사전에 최신화시켜 "차종-모델 코드.csv" 파일에 저장한 후, 이를 활용하여 색상 비율과 색상명을 수집하는 자동화 프로그램을 실행시켜 데이터를 수집한다.
 
 ---
 
-## 아쉬웠던 점
+## 기타사항
 
 1. 인기 사양에 대한 정보까지 자동화 프로그램으로 수집하여 더 완벽한 자동화 프로그램을 개발하고 싶었는데 데이터 수집 시간이 너무 소요되어 그러지 못했다는 점이 아쉬웠다.
+
+2. chrome 새 버전이 출시되면서, 기존의 chromedriver로는 selenium이 올바르게 동작하기 않는 현상이 발견되었다. 나의 경우엔 116.0.5845.96의 크롬 버전임을 확인하였으며, 해당 버전의 chromedriver는 [별도의 크롬드라이버 다운로드 링크](https://googlechromelabs.github.io/chrome-for-testing/)에서 다운받을 수 있다. 자신의 크롬에 맞는 버전을 확인하고 다운받으면 된다.
+크롬 버전을 확인하려면 크롬 메뉴 도움말 탭의 **Chrome 정보**에서 확인할 수 있다.
